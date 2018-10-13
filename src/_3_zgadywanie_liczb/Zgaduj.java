@@ -16,7 +16,7 @@ public class Zgaduj {
                 "Naciśnij dowolny przycisk, gdy wybierzesz liczbę:");
         scanner.nextLine();
         int min = 0;
-        int max = 1000;
+        int max = 1001;
         int number;
         boolean flag = true;
         boolean flag1;
