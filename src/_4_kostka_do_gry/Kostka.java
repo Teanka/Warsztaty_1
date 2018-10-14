@@ -56,13 +56,10 @@ public class Kostka {
         Random random = new Random();
         int iloscOczek = random.nextInt(rodzajKostki) + 1;
         if (plus) {
-            System.out.println("Wynik rzutu to: " + (iloscOczek * iloscRzutow + modyfikatorRzutu));
+            System.out.println("Wynik rzutu kostką " + jakieRzuty+ " to: " + (iloscOczek * iloscRzutow + modyfikatorRzutu));
         }else{
             int wynik = iloscOczek*iloscRzutow-modyfikatorRzutu;
-            if(wynik<0){
-                wynik=0;
-            }
-            System.out.println("Wynik rzutu to: "+wynik);
+            System.out.println("Wynik rzutu kostką " + jakieRzuty+ " to: " + (iloscOczek * iloscRzutow - modyfikatorRzutu));
         }
 
     }
